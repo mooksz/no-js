@@ -1,0 +1,16 @@
+{
+  "node": true,
+  "browser": true,
+  "bitwise": true,
+  "curly": true,
+  "eqeqeq": false,
+  "latedef": true,
+  "noarg": true,
+  "undef": true,
+  "unused": false,
+  "strict": false,
+  "trailing": true,
+  "jquery": true,
+  "asi": true,
+  "esversion": 9
+}

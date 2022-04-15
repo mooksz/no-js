@@ -1,0 +1,14 @@
+*~
+.DS_Store
+*.7z
+*.dmg
+*.iso
+*.jar
+*.rar
+*.tar
+/uploads/
+/plugins/
+node_modules/
+certs/
+/themes/*/dist/
+/themes/*/bundled/*.zip

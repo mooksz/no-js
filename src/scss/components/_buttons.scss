@@ -1,0 +1,44 @@
+.btn {
+  appearance: none;
+  display: block;
+  outline: none;
+  border-radius: 2.25rem;
+  border: 1px solid transparent;
+  width: fit-content;
+  max-width: 100%;
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+  padding: 0.75rem 2.5rem;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  transition: all 200ms ease-in-out;
+  text-transform: uppercase;
+
+  &-primary {
+    background-color: $clr-black;
+    color: $clr-white;
+    border-color: $clr-black;
+    text-decoration: none;
+
+    &:visited,
+    &:active,
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+
+    &:visited,
+    &:active {
+      background-color: $clr-black;
+      color: $clr-white;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: $clr-white;
+      color: $clr-black;
+      border-color: $clr-white;
+    }
+  }
+}
