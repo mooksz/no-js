@@ -45,6 +45,7 @@
       transform: translate3d(0, 0, 0);
     }
 
+    // Unexplainable offset, fix later
     &-2:focus ~ .slider__wrapper-inner {
       transform: translate3d(-100vw, 0, 0) translate3d(-4.25px, 0, 0);
     }
