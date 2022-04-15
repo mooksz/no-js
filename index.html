@@ -10,8 +10,8 @@
 
   <body>
     <div class="sections-wrapper">
-      <section class="mobile-navigation">
-        <h1 class="mobile-navigation__title heading-1">Mobile navigation</h1>
+      <section style="display: none" class="mobile-navigation">
+        <h1 class="mobile-navigation__heading heading-1">Mobile navigation</h1>
 
         <input id="mobile-navigation__checkbox" class="mobile-navigation__checkbox" type="checkbox" />
         <label role="button" for="mobile-navigation__checkbox" class="mobile-navigation__label">
@@ -35,7 +35,25 @@
       </section>
 
       <section class="slider">
-        <h1>Slider</h1>
+        <h1 class="slider__heading heading-1">Slider</h1>
+
+        <div class="slider__wrapper">
+          <!-- We use buttons instead of radio input, because we don't want to perserve state,
+          so we can fallback to autoplay if no button is focused. -->
+          <button type="button" class="slider__button slider__button-1"></button>
+          <button type="button" class="slider__button slider__button-2"></button>
+          <button type="button" class="slider__button slider__button-3"></button>
+          <button type="button" class="slider__button slider__button-4"></button>
+          <button type="button" class="slider__button slider__button-5"></button>
+
+          <div class="slider__wrapper-inner">
+            <div class="slider__slide slider__slide-1">Slide 1</div>
+            <div class="slider__slide slider__slide-2">Slide 2</div>
+            <div class="slider__slide slider__slide-3">Slide 3</div>
+            <div class="slider__slide slider__slide-4">Slide 4</div>
+            <div class="slider__slide slider__slide-5">Slide 5</div>
+          </div>
+        </div>
       </section>
 
       <section class="notification">
